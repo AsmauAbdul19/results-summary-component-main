@@ -1,0 +1,179 @@
+@font-face {
+    font-family: Hanken;
+    src: url(assets/fonts/HankenGrotesk-VariableFont_wght.ttf),;
+}
+
+@font-face {
+    font-family: HankenMedium;
+    src: url(assets/fonts/static/HankenGrotesk-Medium.ttf),;
+}
+
+@font-face {
+    font-family: HankenExtra;
+    src: url(assets/fonts/static/HankenGrotesk-ExtraBold.ttf),;
+}
+
+@font-face {
+    font-family: HankenBold;
+    src: url(assets/fonts/static/HankenGrotesk-Bold.ttf),;
+}
+
+:root{
+    font-size: 62.5%;
+    font-family: Hanken;
+}
+
+.main{
+    font-size: 1.5rem;
+    width: 100%;
+}
+
+/*Begining of main score*/
+.first_side{
+    width: 100%;
+    background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    border-radius: 0 0 35px 35px;
+    padding: 2rem 3rem;
+    text-align: center;
+}
+
+.first_side h1{
+    color: hsl(0, 0%, 100%);
+    font-size: 2rem;
+}
+
+.first_side h3{
+    color: hsla(0, 0%, 100%, 0.6);
+    margin-bottom: 2.5rem;
+}
+
+/*circle with 76*/
+#circle{
+    margin-left: 12rem;
+    width: 8rem;
+    height: 8rem;
+    padding: 2rem;
+    border-radius: 15rem;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+}
+
+#circle #bold{
+    font-family: HankenExtra;
+    font-size: 4.2rem;
+    margin-top: 0.2rem;
+    margin-bottom: -1.8rem;
+    color: hsl(0, 0%, 100%);
+}
+
+.first_side p{
+    color: hsla(0, 0%, 100%, 0.5);
+}
+
+.first_side #ending{
+    margin: 0 5rem;
+}
+/*End of main score*/
+
+/* Begining of summary*/
+.second_side h1{
+    padding-left: 2rem;
+    font-size: 2rem;
+    color: hsl(224, 30%, 27%);
+}
+
+.second_side ul{
+    list-style-type: none;
+    margin-left: -1.8rem;
+    margin-right: 5rem;
+    width: 100%;
+}
+
+.second_side li{
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    font-family: HankenExtra;
+}
+
+li:nth-child(1){
+    background-color: hsla(0, 100%, 67%, 0.1);
+    color: hsl(0, 100%, 67%);
+}
+
+li:nth-child(2){
+    background-color: hsla(39, 100%, 56%, 0.1);
+    color: hsl(39, 100%, 56%);
+}
+
+li:nth-child(3){
+    background-color: hsla(166, 100%, 37%, 0.1);
+    color: hsl(166, 100%, 37%);
+}
+
+li:last-child{
+    background-color: hsla(234, 85%, 45%, 0.1);
+    color: hsl(234, 85%, 45%);
+}
+
+.span_left{
+    float: right;
+    color: hsla(224, 30%, 27%, 0.5);
+}
+
+.bold_num{
+    color: hsl(224, 30%, 27%)
+}
+
+button{
+    margin-left: 2rem;
+    width: 100%;
+    padding: 1.5rem;
+    border: none;
+    border-radius: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    background-color: hsl(224, 30%, 27%);
+    color: hsl(0, 0%, 100%);
+    font-family: Hanken;
+}
+
+button:hover{
+    background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    cursor: pointer;
+}
+
+@media screen and (min-width: 376px) {
+    .main{
+        font-size: 1.2rem;
+        width: 32%;
+        border-radius: 2rem;
+        box-shadow: 10px 10px 10px hsl(221, 100%, 96%);
+        margin: 13% auto;
+    }
+
+    .flex_con{
+        display: flex;
+    }
+    
+    /*Begining of main score*/
+    .first_side{
+    border-radius:20px;
+    padding: 2rem 3.5rem 0;
+    width: 35%;
+    }
+
+    #circle{
+        margin-left: 2.5rem;
+    }
+
+    .first_side p{
+        margin: 2rem auto;
+    }
+
+    .first_side #ending{
+        margin: 0;
+    }
+    button{
+        padding: 10px;
+    }
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+  
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <section class="main flex_con">
+
+    <!--Part that has the main score-->
+    <section class="first_side">
+      <h3>Your  Result</h3>
+      <div id="circle">
+        <p id="bold">76</p>
+        <p id="nom"> of 100</p>
+      </div>
+      <h1>Great</h1>
+      <p id="ending">You scored higher than 65% of the people who have taken these tests.</p>
+    </section>
+    <!--End of part that has the main score-->
+
+    <!--Summary of the results-->
+    <section class="second_side">
+      <h1>Summary</h1>
+      <ul>
+        <li>
+          <span><img src="assets/images/icon-reaction.svg"/> Reaction</span>
+          <span class="span_left">
+            <span class="bold_num">80</span>
+            <span>/100</span>
+          </span>
+        </li>
+        <li>
+          <span><img src="assets/images/icon-memory.svg"/> Memory</span>
+          <span class="span_left">
+            <span class="bold_num">92</span>
+            <span>/100</span>
+          </span>
+        </li>
+        <li>
+          <span><img src="assets/images/icon-verbal.svg"/> Verbal</span>
+          <span class="span_left">
+            <span class="bold_num">61</span>
+            <span>/100</span>
+          </span>
+        </li>
+        <li>
+          <span><img src="assets/images/icon-visual.svg"/> Visual</span>
+          <span class="span_left">
+            <span class="bold_num">72</span>
+            <span>/100</span>
+          </span>
+        </li>
+      </ul>
+      <button>Continue</button>
+    </section>
+    <!--End of summary of the results-->
+  </section>
+</body>
+</html>
