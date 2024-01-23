@@ -141,8 +141,8 @@ button:hover{
     background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
     cursor: pointer;
 }
-
-@media screen and (min-width: 376px) {
+/* xs */
+@media screen and (min-width: 475px) {
     .main{
         font-size: 1.2rem;
         width: 32%;
@@ -176,4 +176,29 @@ button:hover{
     button{
         padding: 10px;
     }
+}
+
+/* s */
+@media (min-width: 640px) {
+    
+}
+
+/* m */
+@media (min-width: 768px) {
+    
+}
+
+/* l */
+@media (min-width: 1024px) {
+    
+}
+
+/* xl */
+@media (min-width: 1280px) {
+    
+}
+
+/* xxl */
+@media (min-width: 1536px) {
+    
 }
