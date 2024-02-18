@@ -23,7 +23,7 @@
     font-family: Hanken;
 }
 
-.main{
+.container{
     font-size: 1.5rem;
     width: 100%;
 }
@@ -49,9 +49,10 @@
 
 /*circle with 76*/
 #circle{
-    margin-left: 12rem;
-    width: 8rem;
-    height: 8rem;
+    position: relative;
+    left: 35%;
+    width: 10rem;
+    height: 10rem;
     padding: 2rem;
     border-radius: 15rem;
     background-image: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
@@ -126,7 +127,7 @@ li:last-child{
 
 button{
     margin-left: 2rem;
-    width: 100%;
+    width: 90%;
     padding: 1.5rem;
     border: none;
     border-radius: 3rem;
@@ -150,10 +151,10 @@ button:hover{
 
     .main{
         font-size: 1rem;
-        width: 60%;
+        width: 70%;
         border-radius: 2rem;
         box-shadow: 10px 10px 10px hsl(221, 100%, 96%);
-        margin: 13% auto;
+        margin: 40% auto;
     }
 
     .flex_con{
@@ -163,12 +164,12 @@ button:hover{
     /*Begining of main score*/
     .first_side{
     border-radius:20px;
-    padding: 2rem 3.5rem 0;
-    width: 35%;
+    padding: 2rem 3rem 0;
+    width: 50%;
     }
 
     #circle{
-        margin-left: 0.7rem;
+        left: 5%;
     }
 
     .first_side p{
@@ -182,13 +183,20 @@ button:hover{
         padding: 10px;
     }
 
+    /*summary*/
     .second_side h1{
         padding-left: 1.5rem;
     }
 
     .second_side ul{
         margin-left: -2.5rem;
-        width: 85%;
+        margin-top: -0.5rem;
+        width: 105%;
+    }
+
+    .second_side li{
+    padding: 0.5rem;
+    margin-bottom: 1.2rem;
     }
 
     button{
@@ -205,22 +213,34 @@ button:hover{
     }
 
     .main{
-        font-size: 1rem;
-        width: 68%;
+        font-size: 1.5rem;
+        width: 70%;
+        border-radius: 2rem;
+        box-shadow: 10px 10px 10px hsl(221, 100%, 96%);
+        margin: 30% auto;
     }
 
     /* Begining of summary*/
+    #circle{
+        left: 20%;
+    }
+
     .second_side h1{
         padding-left: 2rem;
     }
 
     .second_side ul{
-        width: 95%;
+        width: 105%;
+    }
+
+    .second_side li{
+        padding: 0.8rem;
+        margin-bottom: 1.2rem;
     }
 
     button{
         margin-left: 1.5rem;
-        width: 95%;
+        width: 85%;
         padding: 1rem;
     }
 }
@@ -232,7 +252,11 @@ button:hover{
     }
     
     .main{
-        font-size: 1.5rem;
+        font-size: 1.7rem;
+    }
+
+    #circle{
+        left: 30%;
     }
 
     /* Begining of summary*/
@@ -242,12 +266,12 @@ button:hover{
 
     .second_side ul{
         margin-left: -1.8rem;
-        width: 100%;
+        width: 110%;
     }
 
     button{
         margin-left: 2.2rem;
-        width: 100%;
+        width: 95%;
         padding: 1rem;
     }
 }
@@ -259,26 +283,21 @@ button:hover{
     }
 
     .main{
-        font-size: 1.2rem;
-        width: 50%;
+        font-size: 2rem;
         border-radius: 2rem;
-        box-shadow: 10px 10px 10px hsl(221, 100%, 96%);
-        margin: 13% auto;
-    }
-
-    .flex_con{
-        display: flex;
+        margin-top: 20%;
     }
     
     /*Begining of main score*/
     .first_side{
     border-radius:20px;
-    padding: 2rem 3.5rem 0;
-    width: 35%;
+    width: 45%;
     }
 
     #circle{
-        margin-left: 2.5rem;
+        width: 13rem;
+        height: 13rem;
+        left: 25%;
     }
 
     .first_side p{
@@ -286,10 +305,22 @@ button:hover{
     }
 
     .first_side #ending{
-        margin: 0;
+        margin-bottom: 2rem;
     }
+
+    .second_side ul{
+        width: 150%;
+    }
+
+    .second_side li{
+        padding: 0.8rem;
+        margin-bottom: 1.2rem;
+    }
+
     button{
-        padding: 10px;
+        margin-left: 1.5rem;
+        width: 135%;
+        padding: 1rem;
     }
 }
 
@@ -300,11 +331,32 @@ button:hover{
     }
 
     .main{
-        font-size: 1.2rem;
-        width: 35%;
+        font-size: 2.5rem;
+        width: 70%;
         border-radius: 2rem;
         box-shadow: 10px 10px 10px hsl(221, 100%, 96%);
-        margin: 13% auto;
+        margin: 20% auto;
+    }
+
+    #circle{
+        width: 15rem;
+        height: 15rem;
+        left: 30%;
+    }
+
+    .second_side ul{
+        width: 160%;
+    }
+
+    .second_side li{
+        padding: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    button{
+        margin-left: 1.5rem;
+        width: 150%;
+        padding: 1rem;
     }
 }
 
@@ -315,27 +367,30 @@ button:hover{
     }
 
     .main{
-        line-height: 1.5;
-        letter-spacing: 0.3rem;
-        width: 35%;
-        border-radius: 2rem;
-        box-shadow: 10px 10px 10px hsl(221, 100%, 96%);
-        margin: 13% auto;
+        second
+        font-size: 2.5rem;
+        margin: 20% auto;
     }
     
     /* Begining of summary*/
+    #circle{
+        width: 15rem;
+        height: 15rem;
+        left: 35%;
+    }
+
     .second_side h1{
         padding-left: 2rem;
     }
 
     .second_side ul{
         margin-left: -1.8rem;
-        width: 100%;
+        width: 190%;
     }
 
     button{
         margin-left: 2.2rem;
-        width: 100%;
+        width: 175%;
         padding: 1rem;
     }
 
